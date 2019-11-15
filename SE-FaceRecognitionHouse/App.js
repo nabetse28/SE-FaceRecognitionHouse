@@ -3,13 +3,13 @@ import { StyleSheet, Text, View } from 'react-native';
 import { createAppContainer } from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack';
 
-import Login from './src/index';
+// import Login from './src/index';
 import Camera from './src/camera/index'
 
 const MainStack = createStackNavigator({
-  Login: {
-    screen: Login
-  },
+  // Login: {
+  //   screen: Login
+  // },
   Camera: {
     screen: Camera
   }
